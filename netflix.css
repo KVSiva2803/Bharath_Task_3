@@ -1,0 +1,103 @@
+<style>
+        .ss {
+            border: 2px solid grey;
+            box-shadow: 0px 0px 10px grey;
+            position: absolute;
+            left: 35%;
+            top: 6em;
+            background-image: url("https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp");
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+
+        .ss:hover {
+            box-shadow: 0px 0px 25px red;
+        }
+
+        .cls {
+            width: 100px;
+            height: 250px;
+            background-color: blueviolet
+        }
+
+        [placeholder~="Email id/PhoneNo"] {
+            color: black;
+        }
+
+        input[type=checkbox] {
+            width: 15px;
+            height: 20px;
+        }
+
+        ::placeholder {
+            color: Black;
+            font-size: 15px;
+        }
+
+        input {
+            background-color: grey;
+        }
+
+        input:hover {
+            background-color: white;
+        }
+
+        button:hover {
+            color: white;
+        }
+
+        h1.s {
+            animation-name: example;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+        }
+
+        h3.s {
+            animation-name: exas;
+            animation-duration: 3s;
+            animation-delay: 0.8s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+        }
+
+        @keyframes example {
+            0% {
+                color: white;
+                left: 0em;
+
+            }
+
+            25% {
+                color: white;
+            }
+
+            50% {
+                color: white;
+            }
+
+            75% {
+                color: rgb(215, 86, 86);
+            }
+        }
+
+        @keyframes exas {
+            0% {
+                color: black;
+                left: 0em;
+            }
+
+            25% {
+                color: black;
+            }
+
+            50% {
+                color: black;
+            }
+
+            75% {
+                color: rgb(215, 86, 86);
+            }
+        }
+    </style>
